@@ -9,6 +9,6 @@ class MyClass extends React.Component
 
 const Day=()=>
 {
-    return <h2>cricket</h2>
+    return (<h2>cricket</h2>);
 } 
 export {MyClass,Day};

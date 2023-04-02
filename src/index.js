@@ -1,19 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App'; 
-import My from './components/test1';  
-import {MyClass,Day as dy} from './components/test2';  
+// import App from './App'; 
+// import My from './components/test1';  
+// import {MyClass,Day as dy} from './components/test2';  
 
 import reportWebVitals from './reportWebVitals';
+
+import Product from './components/product';
+import Header from './components/appbar'; 
+import SearchAppBar from './components/appbar';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App /> 
-    <My />  
-    <MyClass />   
-    <dy />
+  {/* <Header/> */} 
+  <SearchAppBar/>
+    <Product/>
   </React.StrictMode>
 );
 
